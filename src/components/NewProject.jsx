@@ -6,6 +6,7 @@ export default function NewProject({ onAdd, onCancel }) {
   const description = useRef();
   const date = useRef();
   const modal = useRef();
+
   function handleSave() {
     const enteredTitle = title.current.value;
     const enteredDescription = description.current.value;
